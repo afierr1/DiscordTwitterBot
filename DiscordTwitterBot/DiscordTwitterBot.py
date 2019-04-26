@@ -3,14 +3,16 @@
 TOKEN = 'NTcxMTYyMTIzNTgyMDQ2MjA5.XMJwYQ.bSBuE55-s8cdC47OsdJQais4zUM'
 
 import discord
+import module1
 
 class MyClient(discord.Client):
+    #prints on terminal when bot logs into Discord
     async def on_ready(self):
         print('Logged in as')
         print(self.user.name)
         print(self.user.id)
         print('------')
-
+    #When message is received, these action will be performed
     async def on_message(self, message):
         # we do not want the bot to reply to itself
         if message.author.id == self.user.id:
@@ -20,7 +22,7 @@ class MyClient(discord.Client):
             await message.channel.send('Hello {0.author.mention}'.format(message))
 
         if message.content.startswith('!bye'):
-            await message.channel.send('Hello {0.author.mention}'.format(message))
+            await message.channel.send('Bye {0.author.mention}'.format(message))
 
 client = MyClient()
 client.run(TOKEN)
