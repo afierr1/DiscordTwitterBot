@@ -19,5 +19,8 @@ class MyClient(discord.Client):
         if message.content.startswith('!hello'):
             await message.channel.send('Hello {0.author.mention}'.format(message))
 
+        if message.content.startswith('!bye'):
+            await message.channel.send('Hello {0.author.mention}'.format(message))
+
 client = MyClient()
 client.run(TOKEN)
