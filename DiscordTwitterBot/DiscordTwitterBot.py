@@ -3,7 +3,10 @@
 TOKEN = 'NTcxMTYyMTIzNTgyMDQ2MjA5.XMJwYQ.bSBuE55-s8cdC47OsdJQais4zUM'
 
 import discord
-import module1
+import MyTwitterAPI
+
+
+MyTwitterAPI.GetTwitter().getTweet()
 
 class MyClient(discord.Client):
     #prints on terminal when bot logs into Discord
@@ -26,3 +29,9 @@ class MyClient(discord.Client):
 
 client = MyClient()
 client.run(TOKEN)
+
+
+
+
+
+
