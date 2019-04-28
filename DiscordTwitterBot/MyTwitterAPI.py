@@ -19,7 +19,26 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, compression=True)
 
 class GetTwitter:
-    def getTweet(self):
-        for status in tweepy.Cursor(api.home_timeline).items(200):
-            print(status._json)
+    def getTweet(self,message):
+        self.split = message.split(' ',1)
+
+     
+        search_word = self.split[1]
+        tweets = tweepy.Cursor(api.search,
+            q=search_word,
+            lang="en").items(1)
+            
+        message = next(tweets).text
+        return message
+            
+            
+
+            
+
+  
+
+        # Iterate on tweets
+        for tweet in tweets:
+           print(tweet.text)
+
             

@@ -6,7 +6,7 @@ import discord
 import MyTwitterAPI
 
 
-MyTwitterAPI.GetTwitter().getTweet()
+
 
 class MyClient(discord.Client):
     #prints on terminal when bot logs into Discord
@@ -26,6 +26,10 @@ class MyClient(discord.Client):
 
         if message.content.startswith('!bye'):
             await message.channel.send('Bye {0.author.mention}'.format(message))
+
+        if message.content.startswith('!get_tweet'):
+            self.tweet = MyTwitterAPI.GetTwitter().getTweet(message.content)
+            await message.channel.send(str(self.tweet).format(message))
 
 client = MyClient()
 client.run(TOKEN)
