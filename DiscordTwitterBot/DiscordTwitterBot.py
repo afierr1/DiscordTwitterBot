@@ -5,9 +5,6 @@ TOKEN = 'NTcxMTYyMTIzNTgyMDQ2MjA5.XMJwYQ.bSBuE55-s8cdC47OsdJQais4zUM'
 import discord
 import MyTwitterAPI
 
-
-
-
 class MyClient(discord.Client):
     #prints on terminal when bot logs into Discord
     async def on_ready(self):

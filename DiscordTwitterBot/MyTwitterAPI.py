@@ -21,9 +21,8 @@ api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True, 
 class GetTwitter:
     def getTweet(self,message):
         self.split = message.split(' ',1)
-
-     
         search_word = self.split[1]
+
         tweets = tweepy.Cursor(api.search,
             q=search_word,
             lang="en").items(1)
@@ -31,14 +30,6 @@ class GetTwitter:
         message = next(tweets).text
         return message
             
-            
-
-            
-
-  
-
-        # Iterate on tweets
-        for tweet in tweets:
-           print(tweet.text)
+      
 
             
