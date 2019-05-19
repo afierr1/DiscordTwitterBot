@@ -16,6 +16,13 @@
 - i'm off
 - see you later alligator
 - we'll speak soon
+- good day mate
+- bye bud!
+- bye sister
+- peace out
+- hasta la vista
+- nice talking to you!
+
 
 ## intent:greet
 - Hi
@@ -39,7 +46,11 @@
 - hi dude
 - hey dude!
 - hola
-- 
+- hi sisters
+- hey man
+- hey girl
+- hey you
+- hello
 
 ## intent:thanks
 - Thanks
@@ -57,6 +68,11 @@
 - amazing, thanks
 - cool, thanks
 - cool thank you
+- thanks so much bro
+- thanks so much dude
+- I just wanted to say thanks
+- I just wanted to thank you
+- Thank you from the bottom of my heart
 
 ## intent:affirm
 - yes
@@ -71,7 +87,7 @@
 - okay
 - ok
 - cool
-
+- oh true
 
 ## intent:name
 - My name is [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
@@ -141,7 +157,7 @@
 - I'd like a joke please
 - Tell me something funny that will make me laugh
 
-##intent:first
+## intent:first
 - I'm first
 - You're first
 - They are first
@@ -150,7 +166,7 @@
 - We're first
 - They're first
 
-##intent:tweet
+## intent:tweet
 - show me something funny
 - show me something sad 
 - show me something random
@@ -175,7 +191,7 @@
 - Show me [funny dogs](subject) tweets
 - Show me 
 
-##intent:search_company
+## intent:search_company
 - Find me a tweet by [Google](ORG)
 - Find me a tweet from [BP](ORG)
 - Get a tweet on [Sears](ORG)
@@ -189,15 +205,21 @@
 - Find a tweet by [NBC](ORG)
 - Find a tweet by [CNN](ORG)
 - Find me a tweet by [Apple](ORG)
-- Fine me a tweet by [Twitter](ORG)
-- Fine me a tweet by [Towson University](ORG)
+- Find me a tweet by [Twitter](ORG)
+- Find me a tweet by [Towson University](ORG)
+- Find a tweet by [Reddit](ORG)
+- Find a tweet by [Comcast](ORG)
+- Find a tweet by [
 
-##intent:search_hashtag
+## intent:search_hashtag
 - Find me a tweet with Hashtag #TowsonU
 - Find me a tweet with Hashtag #HarryStyles
 - Fine me a tweet with the Hashtag #Coachella
 - Find me a tweet with the Hashtag #Motivation
-
+- Find me a tweet about #Starbucks
+- Find me a tweet about #JamesCharles
+- Find me a tweet about #DavidDobrik
+- Find me a tweet with #
 
 ##lookup:ORG
 - Gap
@@ -229,5 +251,4 @@
 - Apple
 - Twitter
 - Towson University
-
-
+- Reddit
