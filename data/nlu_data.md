@@ -200,7 +200,8 @@
 - Find me a tweet by [Towson University](ORG)
 - Find a tweet by [Reddit](ORG)
 - Find a tweet by [Comcast](ORG)
-- Find a tweet by [
+- Find a tweet by [Wendys](ORG)
+- Find a tweet by [ABC](ORG)
 
 ## intent:search_hashtag
 - Find me a tweet with Hashtag #TowsonU
@@ -210,7 +211,16 @@
 - Find me a tweet about #Starbucks
 - Find me a tweet about #JamesCharles
 - Find me a tweet about #DavidDobrik
-- Find me a tweet with #
+- Find me a tweet with #Programming
+- Find me tweets about #Dogs
+- Find me tweets about #MondayMotivation
+- Find me tweets related to #Puppies
+- Find me tweets about #BillNye
+- Find me tweets about #PlanetEarth
+- Find me tweets with the #Environment
+- Find me tweets about #GameOfThrones
+- Find me tweets about #TacoBell
+- Find me tweets about #Wendys
 
 ## lookup:ORG
 - Gap
@@ -243,3 +253,4 @@
 - Twitter
 - Towson University
 - Reddit
+- Wendys
