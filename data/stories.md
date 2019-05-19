@@ -45,13 +45,13 @@
  * greet
  - utter_name
  * name{"name":"Bhoomika} 
- -utter_greet
+ - utter_greet
  *tweet
- -action_search_tweet
+ - action_search_tweet
  *thanks
- -utter_thanks
+ - utter_thanks
  *goodbye
- -utter_goodbye
+ - utter_goodbye
  
 ## story_search_tweet
  * tweet_subject
