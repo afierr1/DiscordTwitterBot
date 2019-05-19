@@ -1,6 +1,0 @@
-[
-    {
-        "name": "ORG",
-        "pattern": "(?i)(\\bGap\\b|\\bFootlocker\\b|\\bPayless\\ Shoes\\b|\\bGiant\\b|\\bSafeway\\b|\\bCheeasecake\\ Factory\\b|\\bPF\\ Chang\\'s\\b|\\bShell\\b|\\bAthletica\\b|\\bLululemon\\b|\\bWish\\b)"
-    }
-]
