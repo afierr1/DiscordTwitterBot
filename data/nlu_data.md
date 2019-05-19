@@ -221,7 +221,7 @@
 - Find me a tweet about #DavidDobrik
 - Find me a tweet with #
 
-##lookup:ORG
+## lookup:ORG
 - Gap
 - Footlocker
 - Payless Shoes
