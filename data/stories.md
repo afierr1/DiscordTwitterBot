@@ -72,3 +72,17 @@
 ## story_search_company
  * search_company
   - action_search_company
+  
+## story_search_company02
+* greet
+ - utter_name
+* name{"name":"Lucy"} <!--- User response with an entity. In this case it represents user message 'My name is Lucy.' --> 
+ - utter_greet
+* search_company
+ - action_search_company
+* thanks
+ - utter_thanks
+* goodbye
+ - utter_goodbye
+ 
+ 
