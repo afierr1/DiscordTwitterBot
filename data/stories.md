@@ -45,11 +45,11 @@
  - utter_name
 * name{"name":"Bhoomika"} 
  - utter_greet
-*tweet
+* tweet
  - action_search_tweet
-*thanks
+* thanks
  - utter_thanks
-*goodbye
+* goodbye
  - utter_goodbye
  
  ## story_hashtag_01
