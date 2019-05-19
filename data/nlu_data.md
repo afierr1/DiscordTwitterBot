@@ -70,6 +70,7 @@
 - obviously
 - okay
 - ok
+- cool
 
 
 ## intent:name
@@ -121,8 +122,9 @@
 - name is [Pari](name)
 - name [Sanjay](name)
 - My name is [Bhoomika](name)
-- My name is [Analilia] (name)
-- My name is [Tyler] (name)
+- My name is [Analilia](name)
+- My name is [Tyler](name)
+- My name [Jeff](name)
 
 
 ## intent:joke
@@ -183,10 +185,18 @@
 - Get me a tweet on [Torrid](ORG)
 - Find a tweet on [Exxon](ORG)
 - Find a tweet on [Amazon](ORG)
-- Find a tweeet by [CBS] (ORG)
-- Find a tweet by [NBC] (ORG)
-- Find a tweet by [CNN] (ORG)
+- Find a tweeet by [CBS](ORG)
+- Find a tweet by [NBC](ORG)
+- Find a tweet by [CNN](ORG)
+- Find me a tweet by [Apple](ORG)
+- Fine me a tweet by [Twitter](ORG)
+- Fine me a tweet by [Towson University](ORG)
 
+##intent:search_hashtag
+- Find me a tweet with Hashtag #TowsonU
+- Find me a tweet with Hashtag #HarryStyles
+- Fine me a tweet with the Hashtag #Coachella
+- Find me a tweet with the Hashtag #Motivation
 
 
 ##lookup:ORG
@@ -204,6 +214,20 @@
 - CBS
 - NBC
 - Amazon
-- 
+- Google
+- BP
+- Sears
+- Burger King
+- Samsung 
+- Nintendo
+- Torrid
+- Exxon
+- Amazon
+- CBS
+- NBC
+- CNN
+- Apple
+- Twitter
+- Towson University
 
 
