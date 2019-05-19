@@ -29,6 +29,10 @@ actions:
 - action_twitter
 - action_search_tweet
 - action_search_company
+- action_search_company_tweet
+- action_search_funny_tweet
+- action_search_sad_tweet
+
 
 templates:
   utter_name:
@@ -43,3 +47,5 @@ templates:
   utter_thanks:
   - text: "My pleasure."
   
+  utter_success_response
+  - text: "I found the tweet you were looking for!"
