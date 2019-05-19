@@ -27,18 +27,6 @@ class ActionJoke(Action):
         dispatcher.utter_message(joke)  # send the message back to the user
         return []
 
-
-
-class FirstAction(Action):
-    def name(self):
-        return "action_first"
-
-    def run(self, dispatcher, tracker, domain):
-        message = "Hello World"
-        dispatcher.utter_message(message)
-        return []
-
-
 class SearchTweet(Action):
     def name(self):
         return "action_search_tweet"

@@ -157,15 +157,6 @@
 - I'd like a joke please
 - Tell me something funny that will make me laugh
 
-## intent:first
-- I'm first
-- You're first
-- They are first
-- He is always first
-- Stop being first
-- We're first
-- They're first
-
 ## intent:tweet
 - show me something funny
 - show me something sad 

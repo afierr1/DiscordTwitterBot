@@ -5,7 +5,6 @@ intents:
 - deny
 - joke
 - name
-- first
 - tweet
 - tweet_subject
 - search_company
@@ -13,7 +12,7 @@ intents:
 
 entities:
 - name
-
+- subject
 
 slots:
   name:

@@ -31,11 +31,7 @@
 * goodbye
  - utter_goodbye 
  
- 
-## story_first
-* first
- - action_first
- 
+
 ## story_tweet_01
 * tweet
  - action_twitter
