@@ -33,6 +33,13 @@
 - hello everybody
 - hello is anybody there
 - hello robot
+- hey pal
+- hey buddy!
+- hi buddy!
+- hi dude
+- hey dude!
+- hola
+- 
 
 ## intent:thanks
 - Thanks
@@ -58,6 +65,11 @@
 - for sure
 - yes yes yes
 - definitely
+- of course
+- certainly
+- obviously
+- okay
+- ok
 
 
 ## intent:name
@@ -108,6 +120,9 @@
 - Please call me [Leo](name)
 - name is [Pari](name)
 - name [Sanjay](name)
+- My name is [Bhoomika](name)
+- My name is [Analilia] (name)
+- My name is [Tyler] (name)
 
 
 ## intent:joke
@@ -121,6 +136,8 @@
 - Can you tell jokes?
 - Please tell me a joke
 - I need to hear a joke
+- I'd like a joke please
+- Tell me something funny that will make me laugh
 
 ##intent:first
 - I'm first
@@ -128,11 +145,21 @@
 - They are first
 - He is always first
 - Stop being first
+- We're first
+- They're first
 
 ##intent:tweet
 - show me something funny
 - show me something sad 
 - show me something random
+- show me something hilarious
+- show me something serious
+- show me something crazy
+- show me something interesting
+- show me something motivational
+- show me something stupid
+- show me something cute
+
 
 ## intent:tweet_subject
 - Find me a tweet on [puppies](subject)
@@ -141,6 +168,10 @@
 - Find a twitter on [Coachella](subject)
 - Display a tweet about [avengers](subject)
 - Show me [computer science](subject) tweets
+- Show me tweets about [harry styles](subject)
+- Show me [makeup tutorial](subject) tweets
+- Show me [funny dogs](subject) tweets
+- Show me 
 
 ##intent:search_company
 - Find me a tweet by [Google](ORG)
@@ -151,6 +182,11 @@
 - Get tweet on [Nintendo](ORG)
 - Get me a tweet on [Torrid](ORG)
 - Find a tweet on [Exxon](ORG)
+- Find a tweet on [Amazon](ORG)
+- Find a tweeet by [CBS] (ORG)
+- Find a tweet by [NBC] (ORG)
+- Find a tweet by [CNN] (ORG)
+
 
 
 ##lookup:ORG
@@ -165,5 +201,9 @@
 - Athletica
 - Lululemon
 - Wish
+- CBS
+- NBC
+- Amazon
+- 
 
 
