@@ -60,13 +60,13 @@ class SearchCompany(Action):
 
     def run(self, dispatcher, tracker, domain):
         a = ''
-        subject = next(tracker.get_latest_entity_values("ORG"), None)
+        subject = tracker.get_latest_entity_values("ORG")
         if not subject:
             dispatcher.utter_message("No search found")
             return []
-
-        message = twit.GetTwitter().getTweet(subject)
-        dispatcher.utter_message(message)
+        for x in subject:
+            message = twit.GetTwitter().getTweet(x)
+            dispatcher.utter_message(message)
         return []
 
 

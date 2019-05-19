@@ -989,6 +989,24 @@
             "end": 25,
             "value": "Google",
             "entity": "ORG"
+          },
+          {
+            "start": 30,
+            "end": 34,
+            "value": "Sony",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Find me a tweet on Google and Sony"
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Google",
+            "entity": "ORG"
           }
         ],
         "text": "Find me a tweet by Google"
@@ -1016,6 +1034,24 @@
           }
         ],
         "text": "Get a tweet on Sears"
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Sears",
+            "entity": "ORG"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Nestle",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Get a tweet on Sears and Nestle"
       },
       {
         "intent": "search_company",

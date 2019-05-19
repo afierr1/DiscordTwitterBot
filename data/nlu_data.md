@@ -157,9 +157,11 @@
 - Tell me something funny that will make me laugh
 
 ## intent:search_company
+- Find me a tweet on [Google](ORG) and [Sony](ORG)
 - Find me a tweet by [Google](ORG)
 - Find me a tweet from [BP](ORG)
 - Get a tweet on [Sears](ORG)
+- Get a tweet on [Sears](ORG) and [Nestle](ORG)
 - Search for a tweet on [Burger King](ORG)
 - Give me a tweet on [Samsung](ORG)
 - Get tweet on [Nintendo](ORG)
