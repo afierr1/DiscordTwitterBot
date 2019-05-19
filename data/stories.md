@@ -41,16 +41,15 @@
  - action_twitter
  
 ## story_tweet_02
- 
- * greet
+* greet
  - utter_name
- * name{"name":"Bhoomika"} 
+* name{"name":"Bhoomika"} 
  - utter_greet
- *tweet
+*tweet
  - action_search_tweet
- *thanks
+*thanks
  - utter_thanks
- *goodbye
+*goodbye
  - utter_goodbye
  
  ## story_hashtag_01
@@ -71,5 +70,5 @@
   - action_search_tweet
   
 ## story_search_company
-  * search_company
+ * search_company
   - action_search_company
