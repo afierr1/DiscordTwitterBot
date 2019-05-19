@@ -30,40 +30,6 @@
  - utter_thanks
 * goodbye
  - utter_goodbye 
- 
-
-## story_tweet_01
-* tweet
- - action_twitter
- 
-## story_tweet_02
-* greet
- - utter_name
-* name{"name":"Bhoomika"} 
- - utter_greet
-* tweet
- - action_search_tweet
-* thanks
- - utter_thanks
-* goodbye
- - utter_goodbye
- 
- ## story_hashtag_01
-* greet
- - utter_name
-* name{"name":"Lucy"} <!--- User response with an entity. In this case it represents user message 'My name is Lucy.' --> 
- - utter_greet
-* tweet
- - search_hashtag
-* thanks
- - utter_thanks
-* goodbye
- - utter_goodbye 
- 
- 
-## story_search_tweet
- * tweet_subject
-  - action_search_tweet
   
 ## story_search_company
  * search_company

@@ -142,7 +142,6 @@
 - My name is [Tyler](name)
 - My name [Jeff](name)
 
-
 ## intent:joke
 - Can you tell me a joke?
 - I would like to hear a joke
@@ -156,31 +155,6 @@
 - I need to hear a joke
 - I'd like a joke please
 - Tell me something funny that will make me laugh
-
-## intent:tweet
-- show me something funny
-- show me something sad 
-- show me something random
-- show me something hilarious
-- show me something serious
-- show me something crazy
-- show me something interesting
-- show me something motivational
-- show me something stupid
-- show me something cute
-
-
-## intent:tweet_subject
-- Find me a tweet on [puppies](subject)
-- Get me a tweet on [horses](subject)
-- I want a tweet on [Cancun](subject)
-- Find a twitter on [Coachella](subject)
-- Display a tweet about [avengers](subject)
-- Show me [computer science](subject) tweets
-- Show me tweets about [harry styles](subject)
-- Show me [makeup tutorial](subject) tweets
-- Show me [funny dogs](subject) tweets
-- Show me 
 
 ## intent:search_company
 - Find me a tweet by [Google](ORG)
@@ -200,17 +174,6 @@
 - Find me a tweet by [Towson University](ORG)
 - Find a tweet by [Reddit](ORG)
 - Find a tweet by [Comcast](ORG)
-- Find a tweet by [
-
-## intent:search_hashtag
-- Find me a tweet with Hashtag #TowsonU
-- Find me a tweet with Hashtag #HarryStyles
-- Fine me a tweet with the Hashtag #Coachella
-- Find me a tweet with the Hashtag #Motivation
-- Find me a tweet about #Starbucks
-- Find me a tweet about #JamesCharles
-- Find me a tweet about #DavidDobrik
-- Find me a tweet with #
 
 ## lookup:ORG
 - Gap

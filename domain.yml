@@ -5,10 +5,7 @@ intents:
 - deny
 - joke
 - name
-- tweet
-- tweet_subject
 - search_company
-- search_hashtag
 
 entities:
 - name
@@ -25,12 +22,7 @@ actions:
 - utter_greet
 - utter_goodbye
 - action_joke
-- action_first
-- action_twitter
-- action_search_tweet
 - action_search_company
-
-
 
 templates:
   utter_name:
