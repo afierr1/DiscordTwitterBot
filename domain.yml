@@ -9,6 +9,7 @@ intents:
 - tweet
 - tweet_subject
 - search_company
+- search_hashtag
 
 entities:
 - name
@@ -29,6 +30,7 @@ actions:
 - action_twitter
 - action_search_tweet
 - action_search_company
+
 
 
 templates:
