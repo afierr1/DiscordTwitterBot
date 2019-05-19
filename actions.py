@@ -82,8 +82,37 @@ class SearchCompany(Action):
         return []
 
 
+class SearchHashtag(Action):
+    def name(self):
+        return "action_search_hashtag"
 
+    def run(self, dispatcher, tracker, domain):
+        a = ''
+        subject = next(tracker.get_latest_entity_values("ORG"), None)
+        if not subject:
+            dispatcher.utter_message("No search found")
+            return []
 
+        message = twit.GetTwitter().getTweet(subject)
+        dispatcher.utter_message(message)
+        return []
+
+    
+class SearchUsername(Action):
+    def name(self):
+        return "action_search_username"
+
+    def run(self, dispatcher, tracker, domain):
+        a = ''
+        subject = next(tracker.get_latest_entity_values("ORG"), None)
+        if not subject:
+            dispatcher.utter_message("No search found")
+            return []
+
+        message = twit.GetTwitter().getTweet(subject)
+        dispatcher.utter_message(message)
+        return []
+    
 '''
 next(tracker.get_latest_entity_values(“my_entity_name”), None).
 '''
