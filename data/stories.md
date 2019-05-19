@@ -31,18 +31,32 @@
 * goodbye
  - utter_goodbye 
  
+ 
 ## story_first
 * first
  - action_first
  
-## story_tweet
+## story_tweet_01
 * tweet
  - action_twitter
  
- ##story_search_tweet
+## story_tweet_02
+ 
+ * greet
+ - utter_name
+ * name{"name":"Bhoomika} 
+ -utter_greet
+ *tweet
+ -action_search_tweet
+ *thanks
+ -utter_thanks
+ *goodbye
+ -utter_goodbye
+ 
+## story_search_tweet
  * tweet_subject
   - action_search_tweet
   
-  ##story_search_company
+## story_search_company
   * search_company
   - action_search_company
