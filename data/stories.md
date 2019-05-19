@@ -44,7 +44,7 @@
  
  * greet
  - utter_name
- * name{"name":"Bhoomika} 
+ * name{"name":"Bhoomika"} 
  - utter_greet
  *tweet
  - action_search_tweet
@@ -52,6 +52,19 @@
  - utter_thanks
  *goodbye
  - utter_goodbye
+ 
+ ## story_hashtag_01
+* greet
+ - utter_name
+* name{"name":"Lucy"} <!--- User response with an entity. In this case it represents user message 'My name is Lucy.' --> 
+ - utter_greet
+* tweet
+ - search_hashtag
+* thanks
+ - utter_thanks
+* goodbye
+ - utter_goodbye 
+ 
  
 ## story_search_tweet
  * tweet_subject
