@@ -5,6 +5,6 @@
     },
     {
         "name": "hashtag",
-        "pattern": "(?i)(\\b\\#gogreen\\b|\\b\\#environment\\b)"
+        "pattern": "(?i)(\\b\\#gogreen\\b|\\b\\#environment\\b|\\b\\#savetheearth\\b|\\b\\#cleanenergy\\b)"
     }
 ]

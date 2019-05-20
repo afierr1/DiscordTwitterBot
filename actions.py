@@ -107,6 +107,3 @@ class SearchUsername(Action):
         dispatcher.utter_message(message)
         return []
     
-'''
-next(tracker.get_latest_entity_values(“my_entity_name”), None).
-'''

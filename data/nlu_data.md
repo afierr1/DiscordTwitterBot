@@ -183,7 +183,7 @@
 - I want a [beautiful](mood) tweet on [Cancun](subject)
 - Find an [awesome](mood) twitter on [Coachella](subject)
 - Display a [non-spoiler](mood) tweet about [avengers](subject)
-- Show me [informative](mood)[computer science](subject) tweets
+- Show me [informative](mood) [computer science](subject) tweets
 - Show me an [interesting](mood) tweets about [harry styles](subject)
 - Show me a [hilarious](mood) [makeup tutorial](subject) tweets
 - Show me a [funny](mood) [dogs](subject) tweets
@@ -200,7 +200,7 @@
 ## intent:search_company
 - Show me what [Best Buy](ORG)/[Shoppers](ORG)/[BP](ORG) is talking about on twitter.
 - Show me what [Amazon](ORG) is talking about on twitter.
-- Hey, find me a tweet on [Google](ORG) and [Sony](ORG)
+- Hey, find me a tweet on [Google](ORG) and [Kmart](ORG)
 - Find me a tweet by [Google](ORG)
 - Find me a tweet by [Google](ORG)/[Yahoo](ORG)
 - Find me a tweet from [Best Buy](ORG)/[Shoppers](ORG)/[BP](ORG)

@@ -1297,13 +1297,13 @@
             "entity": "mood"
           },
           {
-            "start": 19,
-            "end": 35,
+            "start": 20,
+            "end": 36,
             "value": "computer science",
             "entity": "subject"
           }
         ],
-        "text": "Show me informativecomputer science tweets"
+        "text": "Show me informative computer science tweets"
       },
       {
         "intent": "tweet_context",
@@ -1568,12 +1568,12 @@
           },
           {
             "start": 35,
-            "end": 39,
-            "value": "Sony",
+            "end": 40,
+            "value": "Kmart",
             "entity": "ORG"
           }
         ],
-        "text": "Hey, find me a tweet on Google and Sony"
+        "text": "Hey, find me a tweet on Google and Kmart"
       },
       {
         "intent": "search_company",
@@ -1965,7 +1965,9 @@
         "name": "hashtag",
         "elements": [
           "#gogreen",
-          "#environment"
+          "#environment",
+          "#savetheearth",
+          "#cleanenergy"
         ]
       }
     ],
