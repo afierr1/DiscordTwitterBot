@@ -166,9 +166,41 @@
 - Show me tweets about [harry styles](subject)
 - Show me [makeup tutorial](subject) tweets
 - Show me [funny dogs](subject) tweets
+- Find me a tweet on [puppies](subject)
+- Get me a tweet on [horses](subject)
+- I want a tweet on [Cancun](subject)
+- Find a twitter on [Coachella](subject)
+- Display a tweet about [avengers](subject)
+- Show me [computer science](subject) tweets
+- Show me tweets about [harry styles](subject)
+- Show me [makeup tutorial](subject) tweets
+- Show me [funny dogs](subject) tweets
+
+
+## intent:tweet_context
+- Find me a [funny](mood) tweet on [puppies](subject)
+- Get me a [cool](mood) tweet on [horses](subject)
+- I want a [beautiful](mood) tweet on [Cancun](subject)
+- Find an [awesome](mood) twitter on [Coachella](subject)
+- Display a [non-spoiler](mood) tweet about [avengers](subject)
+- Show me [informative](mood)[computer science](subject) tweets
+- Show me an [interesting](mood) tweets about [harry styles](subject)
+- Show me a [hilarious](mood) [makeup tutorial](subject) tweets
+- Show me a [funny](mood) [dogs](subject) tweets
+- Find me a [cute](mood) tweet on [puppies](subject)
+- Get me a [nice](mood) tweet on [horses](subject)
+- I want a [cool](mood) tweet on [Cancun](subject)
+- Find a [popular](mood) twitter on [Coachella](subject)
+- Display a [fun](mood) tweet about [avengers](subject)
+- Show me a [cool](mood) [computer science](subject) tweets
+- Show me some [funny](mood) tweets about [harry styles](subject)
+- Show me a [nice](mood) [makeup tutorial](subject) tweets
+- Show me [funny](mood) [dogs](subject) tweets
 
 ## intent:search_company
-- Find me a tweet on [Google](ORG) and [Sony](ORG)
+- Show me what [Best Buy](ORG)/[Shoppers](ORG)/[BP](ORG) is talking about on twitter.
+- Show me what [Amazon](ORG) is talking about on twitter.
+- Hey, find me a tweet on [Google](ORG) and [Sony](ORG)
 - Find me a tweet by [Google](ORG)
 - Find me a tweet by [Google](ORG)/[Yahoo](ORG)
 - Find me a tweet from [Best Buy](ORG)/[Shoppers](ORG)/[BP](ORG)
@@ -189,6 +221,16 @@
 - Find me a tweet by [Towson University](ORG)
 - Find a tweet by [Reddit](ORG)
 - Find a tweet by [Comcast](ORG)
+
+## intent:search_hash
+- Find me a tweet with hashtag [#TowsonU](hashtag)
+- Find me a tweet with hashtag [#HarryStyles](hashtag)
+- Fine me a tweet with the hashtag [#Coachella](hashtag)
+- Find me a tweet with the hashtag [#Motivation](hashtag)
+- Find me a tweet about [#Starbucks](hashtag)
+- Find me a tweet about [#JamesCharles](hashtag)
+- Find me a tweet about [#DavidDobrik](hashtag)
+
 
 ## lookup:ORG
 - Gap
@@ -221,3 +263,10 @@
 - Twitter
 - Towson University
 - Reddit
+
+
+##lookup:hashtag
+- #gogreen
+- #environment
+- #savetheearth
+- #cleanenergy

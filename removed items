@@ -7,15 +7,16 @@
 - Find me a tweet about [#JamesCharles](hashtag)
 - Find me a tweet about [#DavidDobrik](hashtag)
 
-
-## intent:search_hash
-- Find me a tweet with Hashtag [#TowsonU](hashtag)
-- Find me a tweet with Hashtag [#HarryStyles](hashtag)
-- Fine me a tweet with the Hashtag [#Coachella](hashtag)
-- Find me a tweet with the Hashtag [#Motivation](hashtag)
-- Find me a tweet about [#Starbucks](hashtag)
-- Find me a tweet about [#JamesCharles](hashtag)
-- Find me a tweet about [#DavidDobrik](hashtag)
+## intent:tweet_subject
+- Find me a tweet on [puppies](subject)
+- Get me a tweet on [horses](subject)
+- I want a tweet on [Cancun](subject)
+- Find a twitter on [Coachella](subject)
+- Display a tweet about [avengers](subject)
+- Show me [computer science](subject) tweets
+- Show me tweets about [harry styles](subject)
+- Show me [makeup tutorial](subject) tweets
+- Show me [funny dogs](subject) tweets
 
 
 ## intent:tweet
@@ -62,6 +63,8 @@
  - utter_goodbye
  
  
-
+## story_search_tweet
+ * tweet_subject
+  - action_search_tweet
 
 

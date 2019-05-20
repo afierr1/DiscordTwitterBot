@@ -28,3 +28,9 @@ class GetTwitter:
 
         message = next(tweets).text
         return message
+
+    def getTweetByUser(self, user):
+        tweets = tweepy.Cursor(api.user_timeline, id=user).items(1)
+        message = next(tweets).text
+        text = user + ': ' + message
+        return text

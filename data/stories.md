@@ -50,5 +50,13 @@
  ## story_search_tweet
  * tweet_subject
   - action_search_tweet
+  
+  ## story_tweet_context
+  * tweet_context
+  - action_tweet_context
+  
+  ##story_search_hash
+  * search_hash
+  - action_search_hash
  
  

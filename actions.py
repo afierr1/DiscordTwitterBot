@@ -45,10 +45,16 @@ class SearchTweet(Action):
 
 class TwitterAction(Action):
     def name(self):
-        return "action_twitter"
+        return "action_tweet_context"
 
     def run(self, dispatcher, tracker, domain):
-        message = twit.GetTwitter().getTweet("random")
+        subject = next(tracker.get_latest_entity_values("subject"), None)
+        if not subject:
+            dispatcher.utter_message("No search found")
+
+        search = next(tracker.get_latest_entity_values("mood")) + ' '
+        search += next(tracker.get_latest_entity_values("subject"))
+        message = twit.GetTwitter().getTweet(search)
         dispatcher.utter_message(message)
         return []
 
@@ -59,24 +65,24 @@ class SearchCompany(Action):
         return "action_search_company"
 
     def run(self, dispatcher, tracker, domain):
-        a = ''
-        subject = tracker.get_latest_entity_values("ORG")
-        if not subject:
+        company = tracker.get_latest_entity_values("ORG")
+        if not company:
             dispatcher.utter_message("No search found")
             return []
-        for x in subject:
-            message = twit.GetTwitter().getTweet(x)
+
+        for x in company:
+            message = twit.GetTwitter().getTweetByUser(x)
             dispatcher.utter_message(message)
         return []
 
 
 class SearchHashtag(Action):
     def name(self):
-        return "action_search_hashtag"
+        return "action_search_hash"
 
     def run(self, dispatcher, tracker, domain):
         a = ''
-        subject = next(tracker.get_latest_entity_values("ORG"), None)
+        subject = next(tracker.get_latest_entity_values("hashtag"), None)
         if not subject:
             dispatcher.utter_message("No search found")
             return []

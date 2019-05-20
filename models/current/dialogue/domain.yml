@@ -8,11 +8,15 @@ actions:
 - action_joke
 - action_search_company
 - action_search_tweet
+- action_tweet_context
+- action_search_hash
 config:
   store_entities_as_slots: true
 entities:
 - name
 - subject
+- mood
+- hashtag
 forms: []
 intents:
 - greet:
@@ -30,6 +34,10 @@ intents:
 - search_company:
     use_entities: true
 - search_tweet:
+    use_entities: true
+- tweet_context:
+    use_entities: true
+- search_hash:
     use_entities: true
 slots:
   name:

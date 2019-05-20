@@ -5,25 +5,31 @@
         "name"
       ]
     },
-    "action_search_company": {
+    "utter_name": {
       "slots": []
     },
-    "utter_goodbye": {
+    "action_search_company": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "utter_thanks": {
+    "utter_goodbye": {
       "slots": []
     },
-    "utter_name": {
+    "utter_thanks": {
       "slots": []
     },
     "action_joke": {
       "slots": []
     },
+    "action_tweet_context": {
+      "slots": []
+    },
     "action_search_tweet": {
+      "slots": []
+    },
+    "action_search_hash": {
       "slots": []
     }
   },
@@ -41,7 +47,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190519-201032",
+  "trained_at": "20190519-214145",
   "rasa_core": "0.14.4",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.3"

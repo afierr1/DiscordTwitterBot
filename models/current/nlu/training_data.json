@@ -1090,22 +1090,490 @@
         "text": "Show me funny dogs tweets"
       },
       {
-        "intent": "search_company",
+        "intent": "tweet_subject",
         "entities": [
           {
             "start": 19,
-            "end": 25,
+            "end": 26,
+            "value": "puppies",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find me a tweet on puppies"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "horses",
+            "entity": "subject"
+          }
+        ],
+        "text": "Get me a tweet on horses"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Cancun",
+            "entity": "subject"
+          }
+        ],
+        "text": "I want a tweet on Cancun"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Coachella",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find a twitter on Coachella"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "avengers",
+            "entity": "subject"
+          }
+        ],
+        "text": "Display a tweet about avengers"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "computer science",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me computer science tweets"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "harry styles",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me tweets about harry styles"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "makeup tutorial",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me makeup tutorial tweets"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "funny dogs",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me funny dogs tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "funny",
+            "entity": "mood"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "puppies",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find me a funny tweet on puppies"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "cool",
+            "entity": "mood"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "horses",
+            "entity": "subject"
+          }
+        ],
+        "text": "Get me a cool tweet on horses"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "beautiful",
+            "entity": "mood"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Cancun",
+            "entity": "subject"
+          }
+        ],
+        "text": "I want a beautiful tweet on Cancun"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "awesome",
+            "entity": "mood"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "Coachella",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find an awesome twitter on Coachella"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "non-spoiler",
+            "entity": "mood"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "avengers",
+            "entity": "subject"
+          }
+        ],
+        "text": "Display a non-spoiler tweet about avengers"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "informative",
+            "entity": "mood"
+          },
+          {
+            "start": 19,
+            "end": 35,
+            "value": "computer science",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me informativecomputer science tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "interesting",
+            "entity": "mood"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "harry styles",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me an interesting tweets about harry styles"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "hilarious",
+            "entity": "mood"
+          },
+          {
+            "start": 20,
+            "end": 35,
+            "value": "makeup tutorial",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me a hilarious makeup tutorial tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "funny",
+            "entity": "mood"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "dogs",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me a funny dogs tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "cute",
+            "entity": "mood"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "puppies",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find me a cute tweet on puppies"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "nice",
+            "entity": "mood"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "horses",
+            "entity": "subject"
+          }
+        ],
+        "text": "Get me a nice tweet on horses"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "cool",
+            "entity": "mood"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Cancun",
+            "entity": "subject"
+          }
+        ],
+        "text": "I want a cool tweet on Cancun"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "popular",
+            "entity": "mood"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Coachella",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find a popular twitter on Coachella"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "fun",
+            "entity": "mood"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "avengers",
+            "entity": "subject"
+          }
+        ],
+        "text": "Display a fun tweet about avengers"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "cool",
+            "entity": "mood"
+          },
+          {
+            "start": 15,
+            "end": 31,
+            "value": "computer science",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me a cool computer science tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "funny",
+            "entity": "mood"
+          },
+          {
+            "start": 32,
+            "end": 44,
+            "value": "harry styles",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me some funny tweets about harry styles"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "nice",
+            "entity": "mood"
+          },
+          {
+            "start": 15,
+            "end": 30,
+            "value": "makeup tutorial",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me a nice makeup tutorial tweets"
+      },
+      {
+        "intent": "tweet_context",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "funny",
+            "entity": "mood"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "dogs",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me funny dogs tweets"
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Best Buy",
+            "entity": "ORG"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Shoppers",
+            "entity": "ORG"
+          },
+          {
+            "start": 31,
+            "end": 33,
+            "value": "BP",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Show me what Best Buy/Shoppers/BP is talking about on twitter."
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Amazon",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Show me what Amazon is talking about on twitter."
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
             "value": "Google",
             "entity": "ORG"
           },
           {
-            "start": 30,
-            "end": 34,
+            "start": 35,
+            "end": 39,
             "value": "Sony",
             "entity": "ORG"
           }
         ],
-        "text": "Find me a tweet on Google and Sony"
+        "text": "Hey, find me a tweet on Google and Sony"
       },
       {
         "intent": "search_company",
@@ -1370,6 +1838,90 @@
           }
         ],
         "text": "Find a tweet by Comcast"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "#TowsonU",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet with hashtag #TowsonU"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "#HarryStyles",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet with hashtag #HarryStyles"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 33,
+            "end": 43,
+            "value": "#Coachella",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Fine me a tweet with the hashtag #Coachella"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 33,
+            "end": 44,
+            "value": "#Motivation",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet with the hashtag #Motivation"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "value": "#Starbucks",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet about #Starbucks"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 22,
+            "end": 35,
+            "value": "#JamesCharles",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet about #JamesCharles"
+      },
+      {
+        "intent": "search_hash",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "#DavidDobrik",
+            "entity": "hashtag"
+          }
+        ],
+        "text": "Find me a tweet about #DavidDobrik"
       }
     ],
     "regex_features": [],
@@ -1407,6 +1959,13 @@
           "Twitter",
           "Towson University",
           "Reddit"
+        ]
+      },
+      {
+        "name": "hashtag",
+        "elements": [
+          "#gogreen",
+          "#environment"
         ]
       }
     ],
