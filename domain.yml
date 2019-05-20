@@ -6,6 +6,7 @@ intents:
 - joke
 - name
 - search_company
+- search_tweet
 
 entities:
 - name
@@ -23,7 +24,7 @@ actions:
 - utter_goodbye
 - action_joke
 - action_search_company
-
+- action_search_tweet
 templates:
   utter_name:
   - text: "Hey there! Tell me your name."

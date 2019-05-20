@@ -6,6 +6,7 @@
     "intent_joke",
     "intent_name",
     "intent_search_company",
+    "intent_search_tweet",
     "intent_thanks",
     "entity_name",
     "entity_subject",
@@ -23,6 +24,7 @@
     "prev_utter_greet",
     "prev_utter_goodbye",
     "prev_action_joke",
-    "prev_action_search_company"
+    "prev_action_search_company",
+    "prev_action_search_tweet"
   ]
 }

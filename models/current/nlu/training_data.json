@@ -982,6 +982,114 @@
         "text": "Tell me something funny that will make me laugh"
       },
       {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "puppies",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find me a tweet on puppies"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "horses",
+            "entity": "subject"
+          }
+        ],
+        "text": "Get me a tweet on horses"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Cancun",
+            "entity": "subject"
+          }
+        ],
+        "text": "I want a tweet on Cancun"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "Coachella",
+            "entity": "subject"
+          }
+        ],
+        "text": "Find a twitter on Coachella"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "avengers",
+            "entity": "subject"
+          }
+        ],
+        "text": "Display a tweet about avengers"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "computer science",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me computer science tweets"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "harry styles",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me tweets about harry styles"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "makeup tutorial",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me makeup tutorial tweets"
+      },
+      {
+        "intent": "tweet_subject",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "funny dogs",
+            "entity": "subject"
+          }
+        ],
+        "text": "Show me funny dogs tweets"
+      },
+      {
         "intent": "search_company",
         "entities": [
           {
@@ -1010,6 +1118,48 @@
           }
         ],
         "text": "Find me a tweet by Google"
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Google",
+            "entity": "ORG"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Yahoo",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Find me a tweet by Google/Yahoo"
+      },
+      {
+        "intent": "search_company",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Best Buy",
+            "entity": "ORG"
+          },
+          {
+            "start": 30,
+            "end": 38,
+            "value": "Shoppers",
+            "entity": "ORG"
+          },
+          {
+            "start": 39,
+            "end": 41,
+            "value": "BP",
+            "entity": "ORG"
+          }
+        ],
+        "text": "Find me a tweet from Best Buy/Shoppers/BP"
       },
       {
         "intent": "search_company",

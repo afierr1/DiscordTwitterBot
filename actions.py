@@ -33,7 +33,7 @@ class SearchTweet(Action):
 
     def run(self, dispatcher, tracker, domain):
         a = ''
-        subject = next(tracker.get_latest_entity_values("ORG"), None)
+        subject = next(tracker.get_latest_entity_values("subject"), None)
         if not subject:
             dispatcher.utter_message("No search found")
             return []

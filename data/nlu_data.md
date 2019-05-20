@@ -156,9 +156,22 @@
 - I'd like a joke please
 - Tell me something funny that will make me laugh
 
+## intent:tweet_subject
+- Find me a tweet on [puppies](subject)
+- Get me a tweet on [horses](subject)
+- I want a tweet on [Cancun](subject)
+- Find a twitter on [Coachella](subject)
+- Display a tweet about [avengers](subject)
+- Show me [computer science](subject) tweets
+- Show me tweets about [harry styles](subject)
+- Show me [makeup tutorial](subject) tweets
+- Show me [funny dogs](subject) tweets
+
 ## intent:search_company
 - Find me a tweet on [Google](ORG) and [Sony](ORG)
 - Find me a tweet by [Google](ORG)
+- Find me a tweet by [Google](ORG)/[Yahoo](ORG)
+- Find me a tweet from [Best Buy](ORG)/[Shoppers](ORG)/[BP](ORG)
 - Find me a tweet from [BP](ORG)
 - Get a tweet on [Sears](ORG)
 - Get a tweet on [Sears](ORG) and [Nestle](ORG)

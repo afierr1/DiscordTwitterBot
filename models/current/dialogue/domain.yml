@@ -7,6 +7,7 @@ actions:
 - utter_goodbye
 - action_joke
 - action_search_company
+- action_search_tweet
 config:
   store_entities_as_slots: true
 entities:
@@ -27,6 +28,8 @@ intents:
 - name:
     use_entities: true
 - search_company:
+    use_entities: true
+- search_tweet:
     use_entities: true
 slots:
   name:

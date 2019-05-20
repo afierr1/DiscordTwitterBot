@@ -5,22 +5,25 @@
         "name"
       ]
     },
-    "action_joke": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
-    },
-    "utter_name": {
+    "action_search_company": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
-    "action_search_company": {
+    "utter_greet": {
       "slots": []
     },
     "utter_thanks": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "action_search_tweet": {
       "slots": []
     }
   },
@@ -38,7 +41,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190519-194813",
+  "trained_at": "20190519-201032",
   "rasa_core": "0.14.4",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.3"
